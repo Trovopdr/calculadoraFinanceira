@@ -11,11 +11,8 @@ function fazerCalculo() {
 
     console.log(qtdFungida);
 
-    /*valorCorreto.innerHTML = `Para sua área de ${areaHectar} hectares você precisará de ${calcFungHec}Ls de fungicida gastando um total de R$${valorGastofung.toFixed(2)}`
-    valorCorreto.innerHTML += ` Economizando um total de R$${desconto.toFixed(2)}`*/
-    const para = document.createElement("div");
-    para.innerText = "This is a paragraph";
-    document.body.appendChild(para);
+    valorCorreto.innerHTML = `Para sua área de ${areaHectar} hectares você precisará de ${calcFungHec}Ls de fungicida gastando um total de R$${valorGastofung.toFixed(2)}`
+    valorCorreto.innerHTML += ` Economizando um total de R$${desconto.toFixed(2)}`
     /*if(totalGasto < 0){
         valorCorreto.innerHTML = `Insira um número maior ou igual a 0`;
     }*/
